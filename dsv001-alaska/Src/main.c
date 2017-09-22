@@ -48,10 +48,6 @@ int main(void)
 	HW_Internal_STM32F429_Init();
 	Event_init();
 	DSV_Draw_wind_init();
-
-	
-
-		
 	
 	while (1)
   {			
@@ -60,5 +56,4 @@ int main(void)
 
 		//HAL_Delay(1);
   }
-
 }
